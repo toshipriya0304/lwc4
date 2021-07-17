@@ -89,6 +89,15 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>runtime_sales_social:socialPanel</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-c76680d2-913c-4ae9-a002-1cce9b8d7876</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>active</name>
                     <value>true</value>
@@ -122,6 +131,19 @@
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>newsTabContent</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.news</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-c76680d2-913c-4ae9-a002-1cce9b8d7876</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>title</name>
